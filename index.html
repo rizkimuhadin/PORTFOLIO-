@@ -1,0 +1,156 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rizki muhadin — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">Rizki muhadin</div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <p class="hello">Hello.</p>
+          <h2 class="name">I'm Rizki muhadin</h2>
+          <h1 class="role">Software Developer</h1>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#contact">Get a project?</a>
+            <a class="btn outline" href="#resume">My resume</a>
+          </div>
+
+          <ul class="skills-nav">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="avatar-ring">
+            <!-- replace hero.jpg with your photo -->
+            <img src="images/rm.jpg" alt="Jensen" class="avatar">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="container about-inner">
+        <aside class="services">
+          <div class="service">
+            <div class="icon">💻</div>
+            <div>
+              <h4>Website Development</h4>
+              <p>Modern responsive sites and landing pages.</p>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="icon">📱</div>
+            <div>
+              <h4>App Development</h4>
+              <p>Cross-platform mobile apps and PWA.</p>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="icon">☁️</div>
+            <div>
+              <h4>Website Hosting</h4>
+              <p>Deployment, CI/CD and performance tuning.</p>
+            </div>
+          </div>
+        </aside>
+
+        <div class="about-main">
+          <h2>About me</h2>
+          <p class="lead">I started my software journey from photography. Through UI/UX I learned to craft beautiful
+            frontend experiences. Since then, I've focused on full‑stack development and building product that helps
+            people.</p>
+
+          <div class="counters">
+            <div class="counter">
+              <div class="num">120<span>+</span></div>
+              <div class="label">Completed Projects</div>
+            </div>
+            <div class="counter">
+              <div class="num">95<span>%</span></div>
+              <div class="label">Client Satisfaction</div>
+            </div>
+            <div class="counter">
+              <div class="num">10<span>+</span></div>
+              <div class="label">Years Experience</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-grid">
+
+          <article class="project-card">
+            <img src="images/sp.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+          </article>
+
+          <article class="project-card">
+            <img src="images/er.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+          </article>
+
+          <article class="project-card">
+            <img src="images/tr.jpg" alt="Project 3">
+            <h3>Project 3</h3>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Nama">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Pesan"></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>Rizki Muhadin © 2026 </p>
+    </footer>
+
+</body>
+
+</html>
